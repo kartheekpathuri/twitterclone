@@ -1,0 +1,10 @@
+.default {
+    width: 634px;
+    height: 914px;
+    margin: 0 auto;
+    background-color: grey;    
+    /* background-image: url("./assets/dot.jpg"); */
+    background-repeat: repeat;
+    background-attachment: fixed;
+    max-width: 90%;
+  }
