@@ -102,8 +102,8 @@ export class AppComponent implements OnInit {
   };
 
   currentuser ={
-      username: 'better',
-      real_name: 'Better',
+      username: 'starlord',
+      real_name: 'Starlord',
       verified: true      
   };
 
@@ -204,7 +204,7 @@ export class AppComponent implements OnInit {
         this.newpost["id"] = Math.round(Date.now()/100);
         this.newpost["user"] = 4;
         this.newpost["ts"] = Date.now()/1000;
-        this.newpost["img"] = 'assets/better-icon.svg';
+        this.newpost["img"] = 'assets/starlord.jpg';
         if(this.posts[i]["repostcount"]>0)
           this.posts[i]["repostcount"]++;
         else
