@@ -119,8 +119,8 @@ export class AppComponent implements OnInit {
   ngOnInit() {
 
     this.currentuser ={
-        username: 'me',
-        real_name: 'Me',
+        username: 'starlord',
+        real_name: 'Starlord',
         verified: true      
     };
 
